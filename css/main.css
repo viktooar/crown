@@ -1,7 +1,7 @@
 /*variable*/
 
 :root {
-    --color-red: #d11f3d;
+    --color-dynamic: #d11f3d;
 
     --h_main-nav: 76px;
 
@@ -82,8 +82,12 @@ p,a,ul {
             align-items: center;
         }
 
-            .header .header__inner-contacts a>img {
-                padding-right: 20px;
+
+            .header .header__inner-contacts a>svg
+            {
+                margin-right: 20px;
+
+                fill: var(--color-dynamic);
             }
 
             .header .header__inner-contacts a>p {
@@ -92,7 +96,7 @@ p,a,ul {
             }
 
                 .header .header__inner-contacts a>p>span {
-                    color: var(--color-red);
+                    color: var(--color-dynamic);
                 }
 
 /*end header*/
@@ -117,7 +121,7 @@ p,a,ul {
 
             border-radius: 5px 0px 0px 5px;
 
-            background-color: var(--color-red);
+            background-color: var(--color-dynamic);
 
         }
 
@@ -159,7 +163,7 @@ p,a,ul {
             height: 30px;
 
 
-            background-color: var(--color-red);
+            background-color: var(--color-dynamic);
             border-radius: 50%;
 
             font-size: 18px;
@@ -215,7 +219,7 @@ p,a,ul {
         }
 
     .block-main-info p>span {
-        color: var(--color-red);
+        color: var(--color-dynamic);
         font-weight: 700;
         text-transform: uppercase;
     }
@@ -264,7 +268,7 @@ p,a,ul {
         }
 
             .main-category .two p::before {
-                background-color: var(--color-red);
+                background-color: #d11f3d;
             }
 
             .main-category .three p::before {
@@ -287,7 +291,7 @@ p,a,ul {
     height: 100%;
     min-height: 75px;
 
-    background-color: var(--color-red);
+    background-color: var(--color-dynamic);
 }
 
     .footer h3 {
