@@ -41,5 +41,11 @@
         align-items: center;
     }
 
+    .main-nav .header__nav ul,
+    .main-nav .header__nav-request-offer
+    {
+        border-radius: 5px;
+    }
+
 
 }
